@@ -1,0 +1,381 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+header{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 15px;
+
+}
+
+.logo{
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  list-style: none;
+  margin-left: 20px;
+  text-decoration: none;
+  padding-left: 80px;
+}
+.home{
+  z-index: 2;
+  margin-left: 20px;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  margin-left: 800px;
+  margin-top: 18px;
+}
+#nav{
+  text-decoration: none;
+  color: black;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+#nav:hover{
+  text-decoration: none;
+  background: white;
+  color: black;
+}
+.banner{
+  position: relative;
+  width:100%;
+  height:100vh;
+  padding:100px;
+}
+section{
+  background-image: url(img/turtle.jpg);
+  position: relative;
+  width:100%;
+  height: 99vh;
+  top:0;
+  left:0;
+  display:flex;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section::before{
+  content: '';
+  position: absolute;
+  bottom:0;
+  width:100%;
+  height:100px;
+  background: linear-gradient(to top,white,transparent);
+  z-index: 1000;
+}
+
+.container{
+  background-color: white;
+  width:100%;
+  height:100vh;
+}
+
+
+p{
+  color: white;
+  margin-top: -100px;
+  margin-left: -700px;
+  position: absolute;
+  border-radius: 20px;
+  padding:10px;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p1{
+  position: relative;
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 45%;
+}
+
+.card{
+  margin-top: 150px;
+  align-items: center;
+  text-align: center;
+  border:0.5px solid #6495ed;
+  padding:10px;
+}
+.card-img-top{
+  width:100%;
+}
+.card-img-top{
+  width:200px;
+  height:200px;
+}
+.card:hover{
+  background-color: #6495ed;
+  color:white;
+}
+.abuse{
+  text-decoration: none;
+  color:black;
+  margin-left: 92%;
+  font-size: 18px;
+  margin-top: -10%;
+
+}
+.abuse:hover{
+  text-decoration: none;
+  background-color: #6495ed;
+  border-radius: 30px;
+  padding:8px;
+  color: white;
+}
+.container2{
+  background-color: black;
+  width:100%;
+  height:99vh;
+  background-image: url(img/doggo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display:flex;
+  object-fit: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.2);
+}
+
+p4{
+  font-size: 20px;
+  font-weight: 500;
+  margin:5%;
+  height:90px;
+  background-color: #2e8b57;
+  padding:10px;
+  border-radius: 30px;
+  color: white;
+}
+
+
+ #donate{
+   margin-left: -23%;
+   margin-top: 15%;
+   margin-bottom: 5%;
+   border: 0.5px solid #2e8b57;
+ }
+
+ #donate:hover{
+   background-color: #2e8b57;
+   color:white;
+ }
+#volunteer{
+  margin-left: 46%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  border: 0.5px solid #2e8b57;
+}
+#volunteer:hover{
+  background-color: #2e8b57;
+  color:white;
+}
+button{
+padding:5px;
+border-radius: 30px;
+border: 0.5px solid #3cb371;
+}
+button:hover{
+  color:white;
+  background-color: #3cb371;
+}
+
+#donation,#volun{
+  width:150px;
+  height:150px;
+}
+
+.container3{
+  background-color: white;
+  width:100%;
+  height:100vh;
+  padding: 3%;
+}
+
+p6{
+  margin-left: 42%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#team1{
+  width:220px;
+  height:200px;
+  border-radius: 100px;
+  margin-left: 2%;
+  margin-top: -3%;
+}
+
+.container4{
+  width:600px;
+  margin-left: 45%;
+  margin-top: -13%;
+}
+p10{
+  font-size: 70px;
+  font-weight: 1000;
+
+}
+p11{
+  font-weight: 500;
+}
+
+p12{
+  font-size: 70px;
+  font-weight: 1000;
+  margin-left: 95%;
+}
+
+#team2{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+  margin-left: 2%;
+  margin-top: -6%;
+}
+#team3{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+  margin-left: 18%;
+  margin-top: -20%;
+}
+#team4{
+  width:200px;
+  height:200px;
+  border-radius: 100px;
+  margin-left: 15%;
+  margin-top: -20%;
+}
+
+span{
+font-size: 16px;
+font-weight: 500;
+margin-left: 7%;
+}
+
+span1{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8%;
+  margin-left: 6%;
+}
+span2{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: -18%;
+}
+span3{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: -11%;
+}
+.container5{
+  background-image: url(img/banner.jpeg);
+  position: relative;
+  width:100%;
+  height: 50vh;
+  top:0;
+  left:0;
+  display:flex;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.pic{
+  width: 100px;
+  height:100px;
+  margin-left: 43%;
+  margin-top: 10%;
+}
+span4{
+  margin-top: 18%;
+  margin-left: -6.5%;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+}
+p13{
+  color: white;
+  margin-left: -48%;
+  margin-top: 8%;
+}
+p14{
+  margin-top: 22.6%;
+  margin-left: 9%;
+  color:white;
+}
+p15{
+  color:white;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.container6{
+  background-image: url(img/turtle.jpg);
+  position: relative;
+  width:100%;
+  height: 100vh;
+  top:0;
+  left:0;
+  display:flex;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container7{
+margin-top: 5%;
+  background-color: white;
+  width:80%;
+  height:85vh;
+  padding:20px;
+}
+.name{
+  font-weight: 700;
+}
+p20{
+  font-size: 10px;
+}
+select{
+  width:100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: transparent;
+}
+
+
+
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-image: url('https://i.imgur.com/GnyDvKN.png');
+}
